@@ -1,6 +1,6 @@
 {
   "name": "webpack-config-arikanmstf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common webpack config for react.",
   "main": "index.js",
   "keywords": ["webpack", "config"],
@@ -15,11 +15,11 @@
     "url" : "git+https://github.com/arikanmstf/webpack-config-arikanmstf.git"
   },
   "dependencies": {
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "html-webpack-plugin": "3.2.0",
+    "copy-webpack-plugin": "4.5.2"
   },
   "peerDependencies": {
     "webpack": "^4.15.1",
-    "html-webpack-plugin": "^3.2.0",
-    "copy-webpack-plugin": "^4.5.2"
   }
 }
