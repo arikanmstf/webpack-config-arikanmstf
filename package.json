@@ -20,6 +20,6 @@
     "copy-webpack-plugin": "4.5.2"
   },
   "peerDependencies": {
-    "webpack": "^4.15.1",
+    "webpack": "^4.15.1"
   }
 }
