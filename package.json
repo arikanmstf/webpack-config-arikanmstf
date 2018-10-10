@@ -1,6 +1,6 @@
 {
   "name": "webpack-config-arikanmstf",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Common webpack config for react.",
   "main": "index.js",
   "keywords": ["webpack", "config"],
