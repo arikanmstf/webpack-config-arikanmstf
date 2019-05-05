@@ -1,23 +1,29 @@
 {
   "name": "webpack-config-arikanmstf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Common webpack config for react.",
   "main": "index.js",
-  "keywords": ["webpack", "config"],
+  "keywords": [
+    "webpack",
+    "config"
+  ],
   "author": {
     "name": "Mustafa Arikan",
     "email": "arikanmstf@gmail.com",
     "url": "http://mustafaarikan.net"
   },
   "license": "MIT",
-  "repository" : {
-    "type" : "git",
-    "url" : "git+https://github.com/arikanmstf/webpack-config-arikanmstf.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arikanmstf/webpack-config-arikanmstf.git"
   },
   "dependencies": {
-    "path": "^0.12.7",
+    "copy-webpack-plugin": "4.5.2",
     "html-webpack-plugin": "3.2.0",
-    "copy-webpack-plugin": "4.5.2"
+    "path": "^0.12.7",
+    "babel-loader": "^8.0.4",
+    "file-loader": "^1.1.11",
+    "eslint-loader": "^2.0.0"
   },
   "peerDependencies": {
     "webpack": "^4.15.1"
